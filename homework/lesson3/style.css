@@ -1,0 +1,12 @@
+h2{
+    font-family: 'Roboto', sans-serif; font-size: 40px;
+}
+.text{
+    text-align: center; font-family: 'Roboto', sans-serif; font-size: 25px;
+}
+body{
+    background-color: rgb(232, 166, 166);
+}
+.text2{
+     text-align: left; font-weight:lighter; 
+}
