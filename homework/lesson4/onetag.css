@@ -1,0 +1,14 @@
+.container{
+    background: 
+    url('leftbot.png')  no-repeat left bottom,
+    url('lefttop.png')  no-repeat left top,
+    url('rightbot.png') no-repeat right bottom,
+    url('righttop.png') no-repeat right top,
+    url('repx.png') repeat-x top, 
+    url('repx.png') repeat-x bottom,
+    url('repy.png') repeat-y left, 
+    url('repy.png') repeat-y right;
+    padding: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 200px;
+    }
