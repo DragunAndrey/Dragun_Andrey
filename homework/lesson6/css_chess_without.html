@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>chess without pseudo</title>
     <style>
         *{
             margin: 0;
@@ -12,7 +12,6 @@
         .birthday {
             color: green;
         }
-
         .name {
             font-weight: bold;
             font-size: 25px;
@@ -20,31 +19,30 @@
         .champion {
             color: red;
         }
-
-        p {
+        p{
             font-size: 18px;
         }
-
-        a {
+        a{
             font-size: 18px;
             text-decoration: none;
-            font-weight: bold;
+            font-weight: bold;    
         }
-
         .txt {
             color: blue;
             font-style: italic;
         }
-        a[src$='.shtml']{
-            background-image: url(extref.png);
-        }
         a:last-of-type{
             display: block;
             margin-top: 20px;  
+        }       
+        a[href$=".shtml"]{
+           background: url(extref.png) no-repeat ;
+           background-position: left;
+           padding: 15px;
+           margin: 3px; 
         }
     </style>
 </head>
-
 <body>
     <p class="name">Гарри Каспаров</p>
     <p class="birthday">Дата рождения: 13 апреля 1963 г.</p>
@@ -64,6 +62,6 @@
         Каспаров выразили готовность продолжать матч; Каспаров на той же пресс-конференции обвинил Кампоманеса, что тот
         решил прервать матч только тогда, когда претендент получил шансы на победу.
     </p>
-    <a href="chess_before.html">в начало страницы</a>
+    <a href="css_chess_without.html">в начало страницы</a>
 </body>
 </html>
