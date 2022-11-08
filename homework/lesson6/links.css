@@ -1,0 +1,46 @@
+    a{
+    color: green;
+    }
+    a:hover{
+        color: red;
+    }
+    .container a:nth-child(-n+4) {
+        border-right: solid 5px;
+        border-color: red;
+        border-width: 3px;
+        padding: 10px;
+    }
+    .container a:last-of-type {
+        padding: 10px;
+    }
+    .container2 ul li:nth-child(-n+4) {
+        list-style-type: none;
+        display: inline-block;
+        border-right: solid 5px;
+        border-color: red;
+        border-width: 3px;
+        padding: 10px;
+        margin: 0px;  
+    }
+    .container2 ul {
+        padding: 0px;
+    }
+    .container2 ul li:last-child {
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px;
+        margin: 0px; 
+    }
+    .table table tr td:nth-child(-n+4){
+        border-right: solid 5px;
+        border-color: red;
+        border-width: 3px;
+        padding: 10px;
+        margin: 0px;
+        display: inline-table;
+    }
+    .table table tr td:last-child{
+        padding: 10px;
+        margin: 0px;
+        display: inline-table;
+    }
