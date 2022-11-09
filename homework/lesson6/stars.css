@@ -11,6 +11,7 @@
     background: url(orange_star.png);
     height: 78px;
     width: 75px;
+    transition: 1.5s;
 }
 .picture:hover ~ .picture{
     background: url(star.png);
