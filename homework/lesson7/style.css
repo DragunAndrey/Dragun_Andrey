@@ -1,0 +1,69 @@
+.footer, .header{
+    background-color: rgb(72, 169, 198);
+    padding: 30px;text-align: center;
+    font-size: 35px; color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.out{
+    background:url(orange.png);
+}
+.menu{
+    width: 250px;
+    float: left;
+    vertical-align: top;
+    text-align: center
+}
+.menu h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.menu ul{
+    color: blue
+}
+.content{
+   margin-left: 260px;
+    background-image: url(ball.png);
+    background-repeat: repeat-y;
+    padding:15px;
+    background-position: right;
+    background-color: white;
+}
+.content h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content img{
+    float:left;
+    padding: 15px;
+    max-width:240px 
+}
+p{
+    font-size:23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clearfix:after {
+    content: ''; 
+    display: block;
+    clear: both;
+}
+    @media all and (max-width: 670px) {
+        .menu, .content {
+            display: inline-block;
+            float: none;
+            margin: 0;
+            background-image: none;    
+        }
+        .menu ul{
+            list-style-type: none;
+        }
+        .content img{
+            float: none;
+            width: 100%;
+        }
+       .out{
+        margin:0px;
+        text-align: center;
+       }
+    }
+   
+    
+    
