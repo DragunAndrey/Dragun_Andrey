@@ -59,4 +59,7 @@ textarea{
    .area, .comm{
     margin-top: -7px;
    }
+   textarea{
+    resize: vertical;
+   }
 }
