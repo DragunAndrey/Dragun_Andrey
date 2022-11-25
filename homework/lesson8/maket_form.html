@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Для публикации вашей статьи заполните, пожалуйста, следующую форму:</p>
+    <form action="https://fe.it-academy.by/TestForm.php" target="_blank" method="get">
+    <!--название статьи -->
+    <div class="article_name">
+        <label for="article">Название статьи:</label>
+    </div>
+    <div class="article_text">
+        <input id="article" type="text" name="article">
+    </div>
+    <div class="clearfix"></div>
+    <!--рубрика -->
+    <div class="heading">
+    <label for="heading">Рубрика:</label>
+    <select id="heading" name="heading">
+        <option value="comp_tech">компьютерная техника</option>
+        <option value="design">графика и дизайн</option>
+        <option value="program" selected>программирование</option>
+    </select>
+    </div>
+    <!--публикация-->
+    <div>
+        <label for="answer">Публикация:</label>
+        <span><input id="answer" type="radio" name="answer" value="web">на сайте</span>
+        <span><input id="answer" type="radio" name="answer" value="mag">в журнале</span>
+        <span><input id="answer" type="radio" name="answer" value="both">на сайте и в журнале</span> 
+    </div>
+   <!--комменты-->
+   <div class="comm">
+     <label for="comments">Разрешить комментарии:</label>
+     <input id="comments" type="checkbox" name="comments" checked>
+   </div>
+   <!--текст статьи-->
+   <div class="area">
+   Текст статьи: <br>
+    <textarea name="mytext" maxlength="200"></textarea>
+   </div>
+    <!--отправка-->
+    <input type="submit" value="Опубликовать">
+   </form>
+</body>
+</html>
