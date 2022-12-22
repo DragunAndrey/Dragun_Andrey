@@ -1,34 +1,324 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="main_style.css">
-    <title>main</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="main_style.css">
+  <title>Главная страница</title>
 </head>
+
 <body>
- <div class="header">
-   <div><p>Simple Design</p>
-  <p>дизайн интерьера</p>
-</div>
-    <div class="nav">
-   <ul>
-    <li>Главная</li>
-    <li>Тест</li>
-    <li>Каталог</li>
-    <li>О нас</li>
-    <li>Цены</li>
-   </ul>
-   
+  <!-- header -->
+  <div class="header">
+    <div class="menu">
+      <div class="container_menu">
+        <div class="menu_left">
+          <p>Simple</p>
+          <p>Design</p>
+          <p>дизайн интерьера</p>
+          <ul>
+            <li><a style="color: #BD7048;font-weight:600 ;opacity:1" href="#">Главная</a></li>
+            <li><a href="#">Тест</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Цены</a></li>
+          </ul>
+        </div>
+        <div class="menu_right">
+          <a class="number" href="#">+7 700 505 3000</a>
+          <p class="work_time">с 9:00 до 18:00</p>
+        </div>
+        <img class="phone" src="img/phone.svg" alt="phone">
+      </div>
+    </div>
   </div>
-
-  
-
-
-
- </div>   
+  <!--body-->
+  <div class="body_wrap">
+    <div class="my_order">
+      <div class="basket">
+        <img src="img/bag.svg" alt="bag">
+      </div>
+      <p>Мой заказ</p>
+      <span>3 х 29 000тг</span>
+    </div>
+    <div class="main_text">
+      <p>Дизайн-проект для вашей квартиры за 2 недели и 199 000 ₸</p>
+    </div>
+    <div class="consultation">
+      <button>
+        <p>Консультация</p>
+      </button>
+    </div>
+    <div class="info">
+      <div class="order_term">
+        <div class="timer">
+          <img src="img/timer.svg" alt="timer">
+        </div>
+        <div class="order_term_text">
+          <p>2 недели</p>
+          <p>срок выполнения <br> заказа</p>
+        </div>
+      </div>
+      <div class="one_price">
+        <div class="checkmark">
+          <img src="img/oneprice.svg" alt="check">
+        </div>
+        <div class="one_price_text">
+          <p>Неважно</p>
+          <p>сколько квадратов,<br>цена одна</p>
+        </div>
+      </div>
+      <div class="installment">
+        <div class="wallet">
+          <img src="img/wallet.svg" alt="wallet">
+        </div>
+        <div class="installment_text">
+          <p>Рассрочка</p>
+          <p>до 24 месяцев</p>
+          <img src="img/Kaspi.svg" alt="logo">
+        </div>
+      </div>
+    </div>
+    <!-- how it work -->
+    <div class="hiw">
+      <img src="img/room.jpg" alt="room">
+      <img src="img/coffe_table.jpg" alt="table">
+      <div class="text_area">
+        <h2>Как это работает?</h2>
+        <div class="description">
+          <p>01</p>
+          <p>Выбор состава проекта</p>
+          <p>Выберите состав вашего<br> проекта:только планировка или <br> дизайн-проект</p>
+        </div>
+        <div class="description_2">
+          <p>02</p>
+          <p>Настройка проекта</p>
+          <p>Отметьте в корзине нужен ли<br>вам профессиональный замер,<br>подбор строительной бригады<br> или точный
+            просчет сметы</p>
+        </div>
+        <div class="description_3">
+          <p>03</p>
+          <p>Создание чертежей</p>
+          <p>Наши дизайнеры спроектируют<br>интерьер, подготовят<br>чертежи.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- services -->
+    <div class="services">
+      <div class="services_container">
+        <h3>Наши услуги</h3>
+        <div class="services_left">
+          <p>Планировка за 99 000 ₸</p>
+          <p>Срок выполнения: 5 дней</p>
+          <p>Мы разработаем для вас уникальное планировочное решение квартиры, которое будет соответствовать как нормам
+            эргономики, так и вашим личным пожеланиям, а также подготовим чертеж для согласования планировки. </p>
+          <ul>
+            <li>2 варианта планировки + финальный</li>
+            <li>обмерный план</li>
+            <li>план демонтажа стен</li>
+            <li>план монтажа перегородок</li>
+          </ul>
+          <button class="request">
+            Оставить заявку
+          </button>
+          <img class="pdf" src="img/pdf.svg" alt="pdf">
+          <p>Посмотреть пример</p>
+        </div>
+        <div class="services_right">
+          <img src="img/transparent.png" alt="table">
+          <img src="img/plan.svg" alt="plan1">
+          <img src="img/plan2.svg" alt="plan2">
+        </div>
+      </div>
+      <!-- repair -->
+      <div class="repair">
+        <div class="repair_container">
+          <img src="img/blank.png" alt="blank">
+          <p>Планируете ремонт?</p>
+          <p>Ответьте на несколько вопросов и получите бесплатный чек-лист по ремонту</p>
+          <button class="check_list">Получить чек-лист</button>
+        </div>
+      </div>
+      <!-- design -->
+      <div class="design">
+        <div class="design_container">
+          <h2>Дизайн комнат</h2>
+          <p>Выбирая дизайн комнаты, вы получаете смету со списком всех предметов в интерьере,
+            названиями, артикулами, цветом стен и так далее.</p>
+          <p>Гостиные</p>
+          <div class="plates">
+            <div class="design_1">
+              <img src="img/design1.jpg" alt="room">
+              <div class="name_button">
+                <h3>Акварель</h3>
+                <button>
+                  <img src="img/bag.svg" alt="bag">
+                  <p id="select">Выбрать</p>
+                </button>
+              </div>
+            </div>
+            <div class="design_2">
+              <img src="img/design2.jpg" alt="room">
+              <div class="name_button">
+                <h3>Ира</h3>
+                <button>
+                  <img src="img/bag.svg" alt="bag">
+                  <p id="select">Выбрать</p>
+                </button>
+              </div>
+            </div>
+            <div class="design_3">
+              <img src="img/design3.jpg" alt="room">
+              <div class="name_button">
+                <h3>Нурс</h3>
+                <button>
+                  <img src="img/bag.svg" alt="bag">
+                  <p id="select">Выбрать</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- children -->
+          <p id="baby">Детские</p>
+          <div class="design_1">
+            <img src="img/blue_room.jpg" alt="room">
+            <div class="name_button">
+              <h3>Синяя</h3>
+              <button>
+                <img src="img/bag.svg" alt="bag">
+                <p id="select">Выбрать</p>
+              </button>
+            </div>
+          </div>
+          <div class="design_2">
+            <img src="img/pink_room.jpg" alt="room">
+            <div class="name_button">
+              <h3>Розовая</h3>
+              <button>
+                <img src="img/bag.svg" alt="bag">
+                <p id="select">Выбрать</p>
+              </button>
+            </div>
+          </div>
+          <div class="design_3">
+            <img src="img/bright_room.jpg" alt="room">
+            <div class="name_button">
+              <h3>Яркая</h3>
+              <button>
+                <img src="img/bag.svg" alt="bag">
+                <p id="select">Выбрать</p>
+              </button>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <p id="hallway">Коридоры-прихожие</p>
+          <div class="design_1">
+            <img src="img/irina.jpg" alt="room">
+            <div class="name_button">
+              <h3>Ирина</h3>
+              <button>
+                <img src="img/bag.svg" alt="bag">
+                <p id="select">Выбрать</p>
+              </button>
+            </div>
+          </div>
+          <div class="design_2">
+            <img src="img/aqua.jpg" alt="room">
+            <div class="name_button">
+              <h3>Акварель</h3>
+              <button>
+                <img src="img/bag.svg" alt="bag">
+                <p id="select">Выбрать</p>
+              </button>
+            </div>
+          </div>
+          <div class="design_3">
+            <img src="img/kadyr.jpg" alt="room">
+            <div class="name_button">
+              <h3>Кадыр</h3>
+              <button>
+                <img src="img/bag.svg" alt="bag">
+                <p id="select">Выбрать</p>
+              </button>
+            </div>
+          </div>
+          <button class="catalog">
+            <p id="catalog_p">К каталогу комнат</p>
+          </button>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="test">
+        <div class="test_container">
+          <div class="test_text">
+            <h3>Давайте определим, что вам нравится</h3>
+            <p>Пройдите короткий тест и мы покажем подходящие вам стилевые решения</p>
+            <button>
+              <span>Пройти тест</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="questions">
+        <div class="questions_container">
+          <h2>Часто задаваемые вопросы</h2>
+          <button>
+            <img src="img/plus.svg" alt="plus">
+            <p>Вопрос</p>
+          </button>
+          <p id="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Malesuada nibh at ornare turpis sit lacus, in viverra volutpat. Id sed quam consectetur condimentum tellus pellentesque a, convallis metus. Hac dui sit cursus ac id aliquet. A convallis suspendisse in nulla risus, senectus vitae. Condimentum in aliquet egestas aliquam at eu. Id bibendum iaculis netus ipsum quis amet lectus nisi mattis. Sit porttitor a vulputate aliquam elementum, odio lacus.</p>
+          <button class="button_2">
+            <img src="img/black_plus.svg" alt="plus">
+            <p>Вопрос</p>
+          </button>
+          <button class="button_2">
+          
+            <img src="img/black_plus.svg" alt="plus">
+            <p>Вопрос</p>
+          </button>
+          <button class="button_2">
+            <img src="img/black_plus.svg" alt="plus">
+            <p>Вопрос</p>
+          </button>
+          <button class="button_2">
+            <img src="img/black_plus.svg" alt="plus">
+            <p>Вопрос</p>
+          </button>
+        </div>
+      </div>
+      <div class="footer_1">
+        <div class="footer_1_container">
+          <div class="nav_left">
+            <img src="img/Simple Design.svg" alt="logo">
+           <br>
+           <img src="img/lower_logo.svg" alt="logo">
+           <ul>
+            <li>Главная</li>
+            <li>Тест</li>
+            <li>О нас</li>
+            <li>Цены</li>
+           </ul>
+           </div>
+           <div class="nav_right">
+            <a class="number2" href="#">+7 700 505 3000</a>
+            <p class="work_time2">с 9:00 до 18:00</p>
+            <img id="phone2" src="img/phone.svg" alt="phone">
+            <p>Политика конфиденциальности</p>
+            <p>Условия пользования</p>
+           </div>
+          <div class="clearfix"></div>
+        </div>
+       </div>
+        <div class="lower_footer">
+          <p>(с) 2022. Все права защищены.</p>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
