@@ -1,0 +1,12 @@
+#svg_1:hover{
+    stroke:blue; 
+    stroke-width:  0.5em;
+    fill: black;
+    transition-duration: 0.5s;
+}
+#svg_3:hover{
+    fill: pink;
+    d: path("m 236.435 194.459 l 162.5 -126 l 162.5 126 l -325 0 Z");
+    transition-duration: 1.5s;
+    opacity: 0.8;
+}
