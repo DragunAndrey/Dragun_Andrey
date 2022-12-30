@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding: 0;
 }
+p{
+    font-size: 24px;
+}
 .header, .footer{
     display: flex;
     justify-content: center;
@@ -49,11 +52,12 @@ h3{
         background: none;
     }
     .img{
+        
         display: flex;
-    float: none;
-    width: 100%;
-    margin: 0 auto;
-    justify-content: center;
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
     }
     .menu{
         display: flex;
