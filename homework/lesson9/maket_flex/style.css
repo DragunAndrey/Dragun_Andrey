@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header, .footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(72, 169, 198);
+    font-size: 35px; color: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 200px;
+    background-color: rgb(207, 224, 118);
+
+}
+.img{
+    float: left;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content{
+    background: url(images/ball.png) right top repeat-y;
+}
+@media all and (max-width: 700px) {
+    .header,.footer{
+        display: none;
+    }
+    h3,p{
+        font-size: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 350px;
+    }
+    .content{
+        background: none;
+    }
+    .img{
+        display: flex;
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    }
+    .menu{
+        display: flex;
+        background-color: white;
+        width: 350px;
+    }
+    .menu h3{
+        text-align: left;
+    }
+    .menu ul{
+        display: flex;
+        list-style-type: none;
+        width: 350px;
+        flex-wrap: wrap;
+        padding: 0px;
+        justify-content: space-between;
+    }
+}
+   
+
