@@ -1,0 +1,10 @@
+@keyframes MyAnimation2
+{
+    from { background: url(img/hedgehog_left.png) 0 0; }
+    to { background: url(img/hedgehog_left.png) -1600px 0; }
+}
+.anim{
+    width: 145px;
+    height: 180px;
+    animation: MyAnimation2 1s steps(11) infinite;
+}
