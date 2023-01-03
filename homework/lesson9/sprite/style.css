@@ -4,6 +4,7 @@
     to { background: url(img/hedgehog_left.png) -1600px 0; }
 }
 .anim{
+    margin: auto;
     width: 145px;
     height: 180px;
     animation: MyAnimation2 1s steps(11) infinite;
