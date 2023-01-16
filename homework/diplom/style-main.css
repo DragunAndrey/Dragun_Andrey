@@ -776,7 +776,7 @@ body{
 }
 @media (max-width:500px){
     .body-container{
-        width: 100%;
+        max-width: 500px;
     }
     .treaty-tiles{
         flex-direction: column;
@@ -842,6 +842,7 @@ body{
         margin-top: 80px;
         padding-left: 20px;
         background-color: rgb(0, 0, 0);
+        width: 100%;
     }
     .bg-dark,.header-middle{
         display: none;
