@@ -671,12 +671,12 @@ body{
         background: url(main-img/sales-image2.jpg) no-repeat;
         height: 365px;
     }
-    .sale-text>p{   
+    .sale-text>p{  
        font-size: 20px;
-       margin-top: 222px;
-       margin-right: 420px;
+       margin-top: 92px;
+       margin-right: 30px;}
+
     }
-}
 @media (max-width:987px){
     .body-container{
         max-width: 667px;
