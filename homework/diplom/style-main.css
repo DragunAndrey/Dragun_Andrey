@@ -809,7 +809,8 @@ body{
     }
     .catalog-wrap{
         gap: 10px;
-        grid-template-columns: minmax(0, 1fr);
+        grid-template-columns: 220px 220px;
+        grid-template-rows: 280px  280px;
     }
     .piercing{
         display: none;
