@@ -811,7 +811,6 @@ body{
         gap: 10px;
         grid-template-columns: 220px 220px;
         grid-template-rows: 280px  280px;
-        margin: 0 auto;
     }
     .piercing{
         display: none;
