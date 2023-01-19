@@ -407,12 +407,15 @@ body{
     width: 310px;
     height: 40px;
 }
-.catalog-btn button>p{
+.catalog-btn button>a{
     font-weight: 600;
     font-size: 10px;
     line-height: 20px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
+    text-decoration: none;
+}
+.catalog-btn button>a>p{
     margin-bottom: 0;
 }
 .map{
