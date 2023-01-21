@@ -1,0 +1,15 @@
+.map{
+    margin-top: 41px;
+}
+form{
+    width: 332px;
+    height: 496px;
+    font-size: 14px;
+    line-height: 320%;
+    color: #FFFFFF;
+    font-weight: 400;
+    background-color: black;
+}
+select{
+    background-color: black;
+}
