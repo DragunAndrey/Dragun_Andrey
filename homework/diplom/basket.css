@@ -95,13 +95,14 @@
     transition: all .4s ease-in-out;
     background-color: #d29754;
 }
-.btn-primary>p{
+.btn-primary>a{
     margin: 0;
     font-size: 18px;
     line-height: 25px;
     text-align: center;
     color: #FFFFFF;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .mobile h3{

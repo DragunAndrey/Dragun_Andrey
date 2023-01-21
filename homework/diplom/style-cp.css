@@ -228,13 +228,16 @@ body{
 }
 .btn-primary{
     margin-top: 34px;
+    background-color: #000000;
+    border:none
+}
+.btn-primary a{
     font-weight: 600;
     font-size: 15px;
     line-height: 32px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    background-color: #000000;
-    border:none
+    text-decoration: none;
 }
 .btn-primary:hover{
     transform: scale(0.9);
